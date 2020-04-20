@@ -1,0 +1,5 @@
+Dependancies
+node.js
+discord.js
+node-emoji
+node-fetch

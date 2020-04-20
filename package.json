@@ -1,0 +1,26 @@
+{
+  "name": "robotic-weeb",
+  "version": "1.0.0",
+  "description": "Made with love",
+  "main": "index.js",
+  "dependencies": {
+    "booru": "^2.0.3",
+    "discord.js": "^11.6.4",
+    "enmap": "^5.2.2",
+    "jikan-node": "^1.2.0",
+    "node-emoji": "^1.10.0",
+    "node-myanimelist": "^2.0.0",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "-help"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "ethan",
+  "license": "GNU"
+}

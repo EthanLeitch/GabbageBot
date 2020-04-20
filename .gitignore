@@ -1,0 +1,2 @@
+# Ignores config.json as to not reveal discord bot token
+config.json
