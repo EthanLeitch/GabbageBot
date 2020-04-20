@@ -23,8 +23,13 @@ Your token is what you use to log the bot in.
   * You may now save the config and move to the installation process.
 
 ## How to install:
-1. Install node.js at https://nodejs.org/en/
-2. 
+1. Clone this repository to your server with >git clone https://github.com/EthanLeitch/GabbageBot.git
+2. Install node.js at https://nodejs.org/en/
+3. Install discord.js at https://discordjs.guide/preparations/
+4. Install node emoji with >npm install node-emoji
+5. Install fetch with >npm install node-fetch
+
+
 
 ## Adding the bot to your server:
 1. Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/) and click on your application.
@@ -34,7 +39,7 @@ Your token is what you use to log the bot in.
 5. Paste your client ID into where it says **Client ID** then select the permissions you want.
 6. Once you have finished doing that click the invite link that the website generated and it should take you to your bots invite page.
 7. Invite the bot to your server.
-8. Test the bot to see if it works by typing ping and if the command works then you have completed all the steps correctly.
+8. Test the bot to see if it works by typing ?ping and if the command works then you have completed all the steps correctly.
 ***If you want to cosntantly invite the bot to servers keep the link that the permission calculator generated***
 
 # Well Done!
