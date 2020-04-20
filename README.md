@@ -33,28 +33,16 @@ Your token is what you use to log the bot in.
 5. Install node emoji with `npm install node-emoji`
 6. Install fetch with `npm install node-fetch`
 
-## Running the bot
-Make sure you're in GabbageBot's directory and type `node index.js`
-
 ## Adding the bot to your server:
 1. Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/) and click on your application.
 2. Go to the **General Information** tab and you should see your client ID.
 3. Click copy.
-4. Now that you have your client ID go to this website [Discord Permissions Calculator](https://discordapi.com/permissions.html#305261654)
-5. Paste your client ID into where it says **Client ID** then select the permissions you want.
-6. Once you have finished doing that click the invite link that the website generated and it should take you to your bots invite page.
-7. Invite the bot to your server.
-8. Test the bot to see if it works by typing ?ping and if the command works then you have completed all the steps correctly.
-***If you want to cosntantly invite the bot to servers keep the link that the permission calculator generated***
+4. Now that you have your client ID, replace "CLIENT_ID_HERE" in the link below with your client ID
+`https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID_HERE&scope=bot&permissions=573697257`
+5. Click the link and select the server you want to add GabbageBot to.
 
-# Well Done!
-You now have a self hosted working bot on your server!
-
-## 24/7 Hosting:
-
-If you want to 24/7 host this bot for free I suggest using [Glitch.com](https://glitch.com)
-Follow this [guide](https://anidiots.guide/other-guides/hosting-on-glitch) if you don't know how to host on [Glitch](https://glitch.com)
-
-[**An Idiot's Guide: Hosting on Glitch**](https://anidiots.guide/other-guides/hosting-on-glitch)
+## Running the bot
+Make sure you're in GabbageBot's directory and type `node index.js`
+Well done! The bot is now running on your server if it gives you the message "Ready to serve X users in X servers!"
 
 > This bot was made by [Aaronidk/aaronokiay](https://aaronokiay.glitch.me) and forked by [Ethan](https://github.com/EthanLeitch)
