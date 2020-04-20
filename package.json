@@ -1,5 +1,5 @@
 {
-  "name": "robotic-weeb",
+  "name": "gabbagebot",
   "version": "1.0.0",
   "description": "Made with love",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "test": "-help"
   },
   "keywords": [
-    "anime"
+    "minecraft"
   ],
   "author": "ethan",
   "license": "GNU"
