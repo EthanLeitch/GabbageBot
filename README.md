@@ -1,6 +1,6 @@
-# RoboticWeeb
-A bot that gets anime and cat images and posts them to discord
-* Once run, you can run the 'help' command to see a full command list
+# GabbageBot
+A bot that gets information about Gabbage's currency, claims and warps.
+* Once the bot is running, you can use the 'help' command to see a full command list
 
 ## Getting your credentials:
 * Go to the [Discord Developer Portal](https://discordapp.com/developers/applications/)
@@ -16,7 +16,7 @@ Your token is what you use to log the bot in.
   ```js 
   {
   "token": "Your discord token",
-  "prefix": "-",
+  "prefix": "?",
    "devID": "Your discord id"
    }
   ```
