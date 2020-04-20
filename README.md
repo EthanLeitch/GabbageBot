@@ -2,32 +2,36 @@
 A bot that gets information about Gabbage's currency, claims and warps.
 * Once the bot is running, you can use the 'help' command to see a full command list
 
-## Getting your credentials:
+## Creating a bot:
 * Go to the [Discord Developer Portal](https://discordapp.com/developers/applications/)
 * Make a new application.
 * Go to the bot tab and then click add bot.
-### Token
+* Choose the file "icon.png" for the bot's icon.
+* Name it "GabbageBot"
+
+### Creating a config file
 Your token is what you use to log the bot in.
-* On the bot tab click coppy where it says token.
-* Once you have coppied the token you may now paste it into the config file.
+* Make a config file. It needs to be called "config.json"
+* On the bot tab, copy the token.
+* Once you have copied the token you may now paste it into the config file.
 * **MAKE SURE YOU PASTE IT BETWEEN THE SPEECH MARKS.**
 
- * If you followed the stepts correctly your config file should now look like this:
+ * Your config file should look like this:
   ```js 
   {
   "token": "Your discord token",
   "prefix": "?",
-   "devID": "Your discord id"
    }
   ```
-  * You may now save the config and move to the installation process.
+  * You may now save the config and move to the third step of the installation process.
 
 ## How to install:
-1. Clone this repository to your server with `git clone https://github.com/EthanLeitch/GabbageBot.git`
-2. Install node.js at https://nodejs.org/en/
-3. Install discord.js at https://discordjs.guide/preparations/
-4. Install node emoji with `npm install node-emoji`
-5. Install fetch with `npm install node-fetch`
+1. Clone this repository to your server with `git clone https://github.com/EthanLeitch/GabbageBot.git` and create a bot (see "Creating a bot")
+2. Create a config.json file (see "Creating a config file")
+3. Install node.js at https://nodejs.org/en/
+4. Install discord.js at https://discordjs.guide/preparations/
+5. Install node emoji with `npm install node-emoji`
+6. Install fetch with `npm install node-fetch`
 
 ## Running the bot
 Make sure you're in GabbageBot's directory and type `node index.js`
