@@ -10,7 +10,7 @@ exports.run = async (client, message, args, level) => {
   let embed = new Discord.RichEmbed()
   .setTitle("Source Code")
   .setDescription(`
-View and download the source code at [my GitHub](https://google.com)
+View and download the source code at [my GitHub](https://github.com/EthanLeitch/GabbageBot/)
 `)
   .setColor(`#00BFFF`)
   message.channel.send(embed);
