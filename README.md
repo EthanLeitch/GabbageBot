@@ -23,11 +23,11 @@ Your token is what you use to log the bot in.
   * You may now save the config and move to the installation process.
 
 ## How to install:
-1. Clone this repository to your server with >git clone https://github.com/EthanLeitch/GabbageBot.git
+1. Clone this repository to your server with `git clone https://github.com/EthanLeitch/GabbageBot.git`
 2. Install node.js at https://nodejs.org/en/
 3. Install discord.js at https://discordjs.guide/preparations/
-4. Install node emoji with >npm install node-emoji
-5. Install fetch with >npm install node-fetch
+4. Install node emoji with `npm install node-emoji`
+5. Install fetch with `npm install node-fetch`
 
 
 
