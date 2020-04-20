@@ -29,7 +29,8 @@ Your token is what you use to log the bot in.
 4. Install node emoji with `npm install node-emoji`
 5. Install fetch with `npm install node-fetch`
 
-
+## Running the bot
+Make sure you're in GabbageBot's directory and type `node index.js`
 
 ## Adding the bot to your server:
 1. Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/) and click on your application.
